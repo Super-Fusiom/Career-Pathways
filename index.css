@@ -1,0 +1,9 @@
+﻿body {
+    font-family: Verdana, Arial, sans-serif;
+}
+.outcome
+{
+    border-style: solid;
+    border-color: red;
+    background-color:black;
+}
