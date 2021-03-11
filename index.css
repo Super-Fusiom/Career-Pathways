@@ -14,3 +14,25 @@
     background-color:darkcyan;
     color:antiquewhite;
 }
+.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.active{
+    background-color: #4CAF50;
+}
+.topnav a:hover {
+    background-color: #111;
+}
+.topnav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
