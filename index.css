@@ -10,20 +10,23 @@
 }
 .footer{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 500px;
+    left:0;
+    bottom:0;
     background-color:darkcyan;
     color:antiquewhite;
 }
-.topnav{
+.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
+    overflow: hidden;
+    background-color: #333;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    float: left
 }
-.active{
+#active{
     background-color: #4CAF50;
 }
 .topnav a:hover {
