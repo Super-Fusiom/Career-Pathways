@@ -24,15 +24,17 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    float: left
+}
+.navtext {
+    float: left;
 }
 #active{
     background-color: #4CAF50;
 }
-.topnav a:hover {
+.navtext a:hover {
     background-color: #111;
 }
-.topnav a{
+.navtext a{
     display: block;
     color: white;
     text-align: center;
