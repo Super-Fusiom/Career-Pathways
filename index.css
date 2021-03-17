@@ -54,3 +54,8 @@
 .sticky + .everything {
     padding-top: 60px;
 }
+hr {
+    width:1000px; 
+    color:#ffff;
+    position:center;
+}
