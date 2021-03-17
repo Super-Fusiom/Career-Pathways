@@ -1,5 +1,6 @@
 ﻿.everything {
     font-family: Verdana, Arial, sans-serif;
+    padding: 16px;
 }
 .outcome
 {
@@ -21,10 +22,16 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
-    float: left
+    position:sticky;
+}
+.topnav a {
+    float: left;
+    display:block;
+    color: #f2f2f2;
+    text-align:center;
+    padding:14px;
+    text-decoration: none;
 }
 #active{
     background-color: #4CAF50;
@@ -38,4 +45,12 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .everything {
+    padding-top: 60px;
 }
