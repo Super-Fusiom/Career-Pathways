@@ -1,0 +1,117 @@
+﻿.everything {
+    font-family: Verdana, Arial, sans-serif;
+    padding: 16px;
+}
+.outcome
+{
+    border-style: solid;
+    border-color: red;
+    background-color:black;
+    color:white;
+}
+.footer{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left:0;
+    bottom:0;
+    background-color:darkcyan;
+    color:antiquewhite;
+}
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+.topnav a {
+    float: left;
+    display:block;
+    color: #f2f2f2;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+#active{
+    background-color: #4CAF50;
+}
+.topnav a:hover {
+    background-color: #111;
+}
+.topnav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .everything {
+    padding-top: 60px;
+}
+hr {
+    width:1000px; 
+    color:#ffff;
+    position:center;
+}
+/* Dropdown button */
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a green background color to navbar links on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: forestgreen;
+}
+
+/* Dropdown content (hidden by default) */
+.Themes {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+.Themes button {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.Themes button:hover {
+    background-color: #ddd;
+}
+
+.topnav .Themes {
+    display: none;
+    position: absolute;
+}
+
+.topnav .Themes button {
+    color:black;
+}
+
+/* Show the dropdown menu on hover */
+.topnav .dropdown:hover > .Themes {
+    display: block;
+}
