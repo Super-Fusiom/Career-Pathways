@@ -5,15 +5,26 @@
     <meta charset="utf-8" />
     <!--This is the title that is showen at the tab-->
     <title>Carrer Pathways - IT</title>
-    <!--Linking the css file-->
-    <link rel="stylesheet" href="index.css">
+    <!--Linking the css, icon and javascript files-->
+    <link id="pagestyle" rel="stylesheet" href="Dark.css" type="text/css">
+    <link rel="icon" href="tab-icon.png">
+    <script src="Dark.js"></script>
 </head>
 <body>
     <div class="everything">
         <!--Nav bar-->
-        <div class="topnav">            
-            <a class="active" href="index.html">Home</a>
-            <a href="skills.html">Skills</a>
+        <div class="topnav">
+            <a id="active" class="navtext" href="index.html">Home</a>
+            <a class="navtext" href="skills.html">Skills</a>
+            <a class="navtext" href="Education.html">Education</a>
+            <!--Changing the theme for the website-->
+            <div class="dropdown">
+                <button class="dropbtn">Themes</button>
+                <div class="Themes">
+                    <button id="stylesheet1">Dark</button>
+                    <button id="stylesheet2">Light</button>
+                </div>
+            </div>
         </div>
         <h1>Welcome to Computer and Information Sciences</h1>
         <p>
@@ -23,9 +34,11 @@
             - Tim Berners-Lee
         </p>
         <div class="outcome">
-            <h2>What Would I Do?</h2>
+            <h2>What Would you Do?</h2>
+            <hr />
             <p>You will be able to program your heart desires from making a simple website to a huge multiplayer game</p>
-            <h2>What Would I Earn</h2>
+            <h2>What Would you Earn</h2>
+            <hr />
             <ul>
                 <li>
                     Respect from other people because you are doing something that the
@@ -35,6 +48,8 @@
                     A lot of money due to people working at home, using the internet all the time.
                 </li>
             </ul>
+            <img src="web-design.png" alt="Learn to design websites" style="width:600px;height:400px;"/>
+            <img src="coding.jpg" alt="Coding" style="width:600px;height:400px" />
         </div>
     </div>
     <!--This is where the website ends before the footer-->

@@ -1,29 +1,56 @@
+﻿
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title>Skills</title>
-      <!--Linking the css file-->
-    <link rel="stylesheet" href="index.css">
+    <!--Linking the css file-->
+    <link id="pagestyle" rel="stylesheet" href="Dark.css" type="text/css">
+    <link rel="icon" href="tab-icon.png">
+    <script src="Dark.js"></script>
 </head>
     <body>
-      <div class="everything">
-        <div class="topnav">
-            <a href="index.html">Home</a>
-            <a class="active" href="skills.html">Skills</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <h1>Skiils</h1>
-        <h2>What skills do you need?</h2>
-        <!--This is where the website ends before the footer-->
-        <footer>
-            <div class="footer">
-                <p>
-                    Creator: Paul Singh<br>
-                    <a href="mailto:paul21479@gmail.com">paul21479@gmail.com</a>
-                </p>
+        <div class="everything">
+            <!--Nav bar-->
+            <div class="topnav">
+                <a class="navtext" href="index.html">Home</a>
+                <a id="active" class="navtext" href="skills.html">Skills</a>
+                <a class="navtext" href="Education.html">Education</a>
+                <!--Changing the theme for the website-->
+                <div class="dropdown">
+                    <button class="dropbtn">Themes</button>
+                    <div class="Themes">
+                        <button id="stylesheet1">Dark</button>
+                        <button id="stylesheet2">Light</button>
+                    </div>
+                </div>
             </div>
-        </footer>
-      </div>
+            <h1>Skills</h1>
+            <div class="outcome">
+                <h2>What skills do you need?</h2>
+                <hr />
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Pride</li>
+                    <li>Determination</li>
+                    <li>Communication</li>
+                </ul>
+                <h2>What personal qualities Do you need</h2>
+                <hr />
+                <ul>
+                    <li>Hard working</li>
+                    <li>Team player</li>
+                </ul>
+                <!--This is where the website ends before the footer-->
+            </div>
+            <footer>
+                <div class="footer">
+                    <p>
+                        Creator: Paul Singh<br>
+                        <a href="mailto:paul21479@gmail.com">paul21479@gmail.com</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
