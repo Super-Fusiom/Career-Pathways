@@ -25,3 +25,7 @@ function initate() {
 }
 
 window.onload = initate;
+// Optimized for mobile
+if (/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    
+}
