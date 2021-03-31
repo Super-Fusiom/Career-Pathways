@@ -115,3 +115,6 @@ hr {
 .topnav .dropdown:hover > .Themes {
     display: block;
 }
+div {
+    cursor:url("/custom-cursor/Link Select.cur"),auto
+}
