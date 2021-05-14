@@ -1,5 +1,5 @@
 // JavaScript source code
-window.onscroll = function () {myFunction()};
+window.onscroll = function () { myFunction(); };
 //sticky code
 var topnav = document.getElementsByClassName("topnav");
 
@@ -20,8 +20,12 @@ function initate() {
     var style1 = document.getElementById("Dark");
     var style2 = document.getElementById("Light");
 
-    style1.onclick = function () { swapStyleSheet("Dark.css") };
-    style2.onclick = function () { swapStyleSheet("Light.css") };
+    style1.onclick = function () { swapStyleSheet("Dark.css"); };
+    style2.onclick = function () { swapStyleSheet("Light.css"); };
 }
 
 window.onload = initate;
+// Optimized for mobile
+if (/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    swapStyleSheet("")
+}
