@@ -23,12 +23,3 @@ function sideclose() {
     document.getElementById("Sidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
-// Theme Changer
-var theme = document.getElementsByClassName('themes');
-function change() {
-    if (theme.style.display == '' || theme.style.display == 'none') {
-        theme.style.display = 'block';
-    } else {
-        theme.style.display = 'none';
-    }
-}
