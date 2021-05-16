@@ -1,16 +1,4 @@
-// JavaScript source code
-window.onscroll = function () { myFunction(); };
-//sticky code
-var topnav = document.getElementsByClassName("topnav");
 
-var sticky = topnav.offsetTop;
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        topnav.classList.add("sticky");
-    } else {
-        topnav.classList.remove("sticky");
-    }
-}
 // themes for the website
 function swapStyleSheet(sheet) {
     document.getElementById("pagestyle").setAttribute("href", sheet);
@@ -25,7 +13,22 @@ function initate() {
 }
 
 window.onload = initate;
-// Optimized for mobile
-if (/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    swapStyleSheet("")
+// Sidebar opening and closing
+function sideopen() {
+    document.getElementById("Sidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function sideclose() {
+    document.getElementById("Sidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+// Theme Changer
+var theme = document.getElementsByClassName('themes');
+function change() {
+    if (theme.style.display == '' || theme.style.display == 'none') {
+        theme.style.display = 'block';
+    } else {
+        theme.style.display = 'none';
+    }
 }

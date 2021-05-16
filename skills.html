@@ -10,22 +10,24 @@
     <script src="Dark.js"></script>
 </head>
     <body>
-        <div class="everything">
+        <div class="everything" id="main">
             <!--Nav bar-->
-            <div class="topnav">
+            <div class="sidebar" id="Sidebar">
+                <button onclick="sideclose()" class="closebtn">&times;</button>
                 <a class="navtext" href="index.html">Home</a>
                 <a id="active" class="navtext" href="skills.html">Skills</a>
                 <a class="navtext" href="Education.html">Education</a>
                 <a class="navtext" href="Contact.html">Contact</a>
                 <!--Changing the theme for the website-->
                 <div class="dropdown">
-                    <button class="dropbtn">Themes</button>
-                    <div class="Themes">
+                    <button class="dropbtn">themes</button>
+                    <div class="themes">
                         <button id="Dark">Dark</button>
                         <button id="Light">Light</button>
                     </div>
                 </div>
             </div>
+            <button class="openbtn" onclick="sideopen()">☰</button>
             <h1>Skills</h1>
             <div class="outcome">
                 <h2>What skills do you need?</h2>

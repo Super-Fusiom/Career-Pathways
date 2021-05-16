@@ -86,7 +86,7 @@ hr {
 }
 
 /* Dropdown content (hidden by default) */
-.Themes {
+.themes {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -97,7 +97,7 @@ hr {
 }
 
     /* Links inside the dropdown */
-    .Themes button {
+    .themes button {
         float: none;
         color: black;
         padding: 12px 16px;
@@ -107,21 +107,21 @@ hr {
     }
 
         /* Add a grey background color to dropdown links on hover */
-        .Themes button:hover {
+        .themes button:hover {
             background-color: #ddd;
         }
 
-.topnav .Themes {
+.topnav .themes {
     display: none;
     position: absolute;
 }
 
-    .topnav .Themes button {
+    .topnav .themes button {
         color: black;
     }
 
 /* Show the dropdown menu on hover */
-.topnav .dropdown:hover > .Themes {
+.topnav .dropdown:hover > .themes {
     display: block;
 }
 a hover{
