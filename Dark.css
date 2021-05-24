@@ -11,6 +11,7 @@
     background-color:black;
     color:white;
     padding:20px;
+    word-wrap:normal;
 }
 .footer{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -19,6 +20,16 @@
     background-color:black;
     color:antiquewhite;
     margin-top:16px;
+}
+
+.footer a {
+    color:inherit;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.footer a:hover {
+    color: orangered;
 }
 
 #active {
