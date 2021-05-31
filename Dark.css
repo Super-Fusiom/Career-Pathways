@@ -6,9 +6,14 @@
     padding:0px;
 }
 
+.text {
+    word-wrap:break-word;
+}
+
 .images_main {
     vertical-align:unset;
     float:right;
+    word-wrap:break-word;
 }
 .outcome
 {
