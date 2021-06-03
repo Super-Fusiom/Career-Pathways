@@ -10,6 +10,10 @@
     word-wrap:break-word;
 }
 
+.Heading1 {
+    padding-left:15px;
+}
+
 /* (1366x768) WXGA/Laptop display */
 @media  screen and (min-width: 1366px) {
     .images_main {
