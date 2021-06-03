@@ -2,7 +2,7 @@
     margin:0;
 }
 .everything {
-    font-family: Verdana, Arial, sans-serif;
+    font-family: TT Norms Pro, Arial, sans-serif;
     padding:0px;
 }
 
@@ -17,13 +17,21 @@
 /* (1366x768) WXGA/Laptop display */
 @media  screen and (min-width: 1366px) {
     .images_main {
-        width:500px;
+        width:35em;
     }
 }
+
+/*Phones 480px*/
+@media screen and (max-width: 480px) {
+    .images_main {
+        width:5em;
+    }
+}
+
 /* (1920x1080) Full HD Display */
 @media  screen and (min-width: 1920px) {
     .images_main {
-        width:1000px;
+        width:10em;
     }
 }
 .images_main {
@@ -37,6 +45,7 @@
     color:white;
     padding:20px;
     word-wrap:normal;
+    border:0;
 }
 .img_background{
     background-color: black;
@@ -218,6 +227,7 @@ a {
 .bar {
     background-color: black;
     width: 100%;
+    position:static
 }
 /*Form (Contact page only)*/
 
