@@ -8,14 +8,23 @@
 
 .text {
     word-wrap:break-word;
-    margin-right:42em;
 }
 
+/* (1366x768) WXGA/Laptop display */
+@media  screen and (min-width: 1366px) {
+    .images_main {
+        width:500px;
+    }
+}
+/* (1920x1080) Full HD Display */
+@media  screen and (min-width: 1920px) {
+    .images_main {
+        width:1000px;
+    }
+}
 .images_main {
     word-wrap:break-word;
-    margin-top: 50px;
-    margin-bottom:50px;
-    margin-left:40em;
+    float:right;
 }
 .outcome
 {
@@ -24,6 +33,14 @@
     color:white;
     padding:20px;
     word-wrap:normal;
+}
+.img_background{
+    background-color: black;
+}
+.img_background::after {
+content: "";
+clear: both;
+display: block;
 }
 .footer{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
