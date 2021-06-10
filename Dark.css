@@ -2,10 +2,10 @@
     margin:0;
 }
 .everything {
-    font-family: TT Norms Pro, Arial, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     padding:0px;
 }
-
+/*Wrap the text around the images.*/
 .text {
     word-wrap:break-word;
 }
@@ -34,10 +34,12 @@
         width:10em;
     }
 }
+/*Image float to the right*/
 .images_main {
     word-wrap:break-word;
     float:right;
 }
+/*The black box in the page*/
 .outcome
 {
     border-style: solid;
@@ -55,6 +57,7 @@ content: "";
 clear: both;
 display: block;
 }
+/*The footer and when links are highlighted*/
 .footer{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     left:0;
@@ -138,6 +141,7 @@ hr {
 a {
     cursor:url("custom-cursor/Link Select.cur"),auto;
 }
+/*Submit button class*/
 .submit 
 {
     width: 100%;
@@ -154,7 +158,7 @@ a {
     .submit:hover {
         background: #3e4f24;
     }
-
+/*Sidebar (Includes open and close buttons)*/
 .sidebar {
   height: 100%;
   width: 0;
@@ -224,6 +228,7 @@ a {
         display: inline-block;
     }
 }
+/*Black bar on top of page*/
 .bar {
     background-color: black;
     width: 100%;
@@ -253,10 +258,7 @@ form, textarea {
     border-radius: 45px;
 }
 .form-right {
-    padding-left: 47em;
+    position:center;
     display: inline-block;
-}
-.form-left {
-    float: left;
-    display: inline-block;
+    margin-left:26em;
 }
