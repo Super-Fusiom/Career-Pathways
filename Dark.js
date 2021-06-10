@@ -8,8 +8,8 @@ function initate() {
     var style1 = document.getElementById("Dark");
     var style2 = document.getElementById("Light");
 
-    style1.onclick = function () { swapStyleSheet("Dark.css"); };
-    style2.onclick = function () { swapStyleSheet("Light.css"); };
+    style1.onclick = function () { swapStyleSheet("css/Dark.css"); };
+    style2.onclick = function () { swapStyleSheet("css/Light.css"); };
 }
 
 window.onload = initate;
