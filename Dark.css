@@ -8,6 +8,7 @@
 /*Wrap the text around the images.*/
 .text {
     word-wrap:break-word;
+    font-size:21px;
 }
 
 .Heading1 {
