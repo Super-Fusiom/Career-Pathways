@@ -14,25 +14,28 @@
 .Heading1 {
     padding-left:15px;
 }
+.images_main {
+    width:40%
+}
 
 /* (1366x768) WXGA/Laptop display */
 @media  screen and (min-width: 1366px) {
     .images_main {
-        width:35em;
+        width:40%;
     }
 }
 
 /*Phones 480px*/
 @media screen and (max-width: 480px) {
     .images_main {
-        width:5em;
+        width:40%;
     }
 }
 
 /* (1920x1080) Full HD Display */
 @media  screen and (min-width: 1920px) {
     .images_main {
-        width:10em;
+        width:40%;
     }
 }
 /*Image float to the right*/
@@ -137,10 +140,6 @@ hr {
 .caret-down {
     float: right;
     padding-right: 8px;
-}
-
-a {
-    cursor:url("custom-cursor/Link Select.cur"),auto;
 }
 /*Submit button class*/
 .submit 
