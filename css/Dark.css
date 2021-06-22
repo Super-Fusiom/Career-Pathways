@@ -19,23 +19,32 @@
 }
 
 /* (1366x768) WXGA/Laptop display */
-@media  screen and (min-width: 1366px) {
+@media screen and (min-width: 1366px) {
     .images_main {
         width:40%;
     }
 }
 
 /*Phones 480px*/
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 540px) {
     .images_main {
         width:40%;
+    }
+    .bar {
+        font-size:21px;
+    }
+    .sidebar {
+        font-size:21px;
     }
 }
 
 /* (1920x1080) Full HD Display */
-@media  screen and (min-width: 1920px) {
+@media  screen and (max-width: 1920px) {
     .images_main {
         width:40%;
+    }
+    .form-right {
+    padding-left:6em;
     }
 }
 /*Image float to the right*/
