@@ -26,7 +26,7 @@
 }
 
 /*Phones 480px*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 845px) {
     .images_main {
         width:40%;
     }
