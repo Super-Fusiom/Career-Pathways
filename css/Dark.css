@@ -100,7 +100,6 @@ display: block;
 hr {
     width:100%; 
     color:#ffff;
-    position:center;
 }
 /* Dropdown button */
 .sidebar a, .dropdown, .dropbtn {
@@ -258,7 +257,6 @@ form, textarea {
     border-radius: 45px;
 }
 .form-right {
-    position:center;
     display: inline-block;
     margin-left:26em;
 }
