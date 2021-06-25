@@ -15,8 +15,8 @@
     padding-left:15px;
 }
 
-/*WXGA/Laptop display */
-@media screen and (min-width: 1000px) {
+/*WXGA/Laptop display and large phones and tablets */
+@media screen and (max-width: 1000px) {
     .images_main {
         width: 40%;
         word-wrap: break-word;
@@ -59,7 +59,7 @@
     }
 }
 /*Phones (Vertical)*/
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 280px) {
     .images_main {
         width: 100%;
     }
